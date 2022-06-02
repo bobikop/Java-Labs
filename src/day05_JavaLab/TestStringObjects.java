@@ -17,5 +17,7 @@ public class TestStringObjects {
         System.out.println(str1 == str3); // false since are created by new keyword
 
         System.out.println(str1.equals(str2)); // when need to check the object value need to always use equals method
+
+
     }
 }
