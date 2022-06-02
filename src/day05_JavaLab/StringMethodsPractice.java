@@ -74,9 +74,18 @@ public class StringMethodsPractice {
 
      String email = "sydeo_school@hotmail.com";
 
+     int beginningIndex = email.indexOf('@') +1 ;
+     int endingIndex =email.lastIndexOf(".");
+     String domain = email.substring(beginningIndex, endingIndex);
+     System.out.println(domain);
 
+     System.out.println("-----------------------------------------------------------");
 
+     // let's say we want to extract school name from the sentence
+     String s2 = "I study at CYDEO school";
 
+     String schoolName = s2.substring(s2.indexOf('C'));
+     System.out.println(schoolName);
 
 
 

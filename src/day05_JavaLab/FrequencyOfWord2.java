@@ -17,5 +17,7 @@ public class FrequencyOfWord2 {
 
         System.out.println(countJava);
 
+
+
     }
 }
