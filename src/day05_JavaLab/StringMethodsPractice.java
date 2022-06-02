@@ -70,6 +70,11 @@ public class StringMethodsPractice {
 
 
 
+     System.out.println("-----------------------------------------------------------");
+
+     String email = "sydeo_school@hotmail.com";
+
+
 
 
 
